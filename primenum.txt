@@ -1,0 +1,11 @@
+puji=input("enter a number:")
+vowels=0
+consonents=0
+for i in puji:
+    if i in('a','e','i','o','u','A','E','I','O','U'):
+        vowels=vowels+1
+    else:
+        consonents=consonents+1
+print("the number of vowels",vowels)
+print("the number of consonents",consonents)
+    
